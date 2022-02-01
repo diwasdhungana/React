@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+
+
+.navBar{
+width: 80% ;
+margin: 0% 10%;
+height: 85px;
+top: 0px;
+background: #C4C4C4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#Cmart{
+margin: auto;
+top: 10px;
+bottom: 10px;
+
+font-family: Tauri;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 56px;
+text-align: center;
+
+color: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.popular{
+  /* position: relative; */
+  height: 500px;
+  margin: 2.5% 10%;
+width: 80%;
+background: #96AE8E;
+border-radius: 20px;
+justify-content: center;
+
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+
+
+.pop1{
+  
+  /* position: absolute; */
+width: 15%;
+height: 80%;
+background-color: #FFFFFF;
+border-radius: 20px;
+display: inline-block;
+margin: 1% 4%;
+padding: 1%;
+float: left;
+
+
+
+}
+
+
+.pop_img{
+  /* position: absolute; */
+  height: 130px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  display:block;
+ 
 
-.App-link {
-  color: #61dafb;
 }
+.pop_img img{
+  height: 100%;
+  width: 100%;
+}
+.popcontent{
+  /* position:absolute; */
+height: 50%;
+font-family: Tauri;
+font-style: normal;
+font-weight: normal;
+/* identical to box height */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+text-align: justify;
+
+color: #000000;
 }
