@@ -1,0 +1,134 @@
+
+
+.navBar{
+width: 90% ;
+margin: 0% 5%;
+height: 85px;
+top: 0px;
+background: #C4C4C4;
+/* round corners */
+border-radius: 10px;
+}
+
+#Cmart{
+margin: auto;
+top: 10px;
+bottom: 10px;
+
+font-family: Tauri;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 56px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+/* hide scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+.popular{
+  /* only horizontal scrolling */
+  overflow-x: scroll;
+  overflow-inline: auto;
+  background: #96AE8E;
+  border-radius: 20px;
+  height:350px;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  vertical-align: middle;
+  /* white-space: nowrap; */
+   display: flex ;
+   flex-flow: column-reverse wrap;
+   padding: auto;
+}
+
+
+
+.pop1{
+  
+  /* position: absolute; */
+width: 250px;
+height: 350px;
+background-color: whitesmoke;
+border-radius: 20px;
+overflow: hidden;
+margin-left: 10px;
+display: inline-block;
+margin-right: 10px;
+margin-bottom: 5px;
+margin-top: 5px;
+} 
+
+
+.pop_img{
+  /* position: absolute; */
+  height: 188px;
+  justify-content: center;
+  display:block;
+ 
+
+}
+.pop_img img{
+  height: 100%;
+  width: 100%;
+}
+.popcontent{
+  line-height: 15px;
+  padding-bottom: 10px;
+}
+.Iname{
+  
+  height: 35px;
+  line-height: 35px;
+  color: black;
+}
+#Name{
+  margin-left: 10px;
+  margin-top: -10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  overflow-x: scroll;
+}
+.Ides{
+  font-style: thin;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 17px;
+  margin: 5px;
+  color: lightslategray;
+  text-align: justify;
+}
+.Iprice{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px; 
+  margin: 3px;
+  color: yellowgreen
+  
+}
+.Itype{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 15px;
+  color:grey;
+  text-decoration: underline;
+  margin-left:3px;
+}
+.Irating{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+  color: green;
+  text-decoration: underline;
+  margin-left:3px;
+}
